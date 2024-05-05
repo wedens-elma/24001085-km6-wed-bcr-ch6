@@ -6,7 +6,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import { getProfile, logout } from "../../redux/actions/auth";
 import binarLogo from "../../assets/icons/binar.png"; // Import logo Binar
 
-const NavbarComponent = () => {
+function NavbarComponent() {
 	const navigate = useNavigate();
 	const dispatch = useDispatch();
 
@@ -58,6 +58,6 @@ const NavbarComponent = () => {
 			</Container>
 		</Navbar>
 	);
-};
+}
 
 export default NavbarComponent;
