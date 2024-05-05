@@ -1,9 +1,9 @@
-import LoginComponent from "../../components/Login";
-import { NavbarComponent } from "../../components/NavbarComponent"; // Import NavbarComponent
-import { Footer } from "../../components/Footer"; // Import Footer
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
+import Footer from "../../components/Footer"; // Import Footer
+import LoginComponent from "../../components/Login";
+import NavbarComponent from "../../components/NavbarComponent"; // Import NavbarComponent
 
 const Login = () => {
 	return (
